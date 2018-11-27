@@ -1,0 +1,39 @@
+$ ls
+
+$ git init
+
+$ git remote add origin https://github.com/venkatpuram/third.git
+
+$ git add .
+
+$ git status
+
+$ git commit -m "adds first file"
+
+$ git push origin master
+
+$ git mv first.txt first_new.txt
+
+$ git status
+
+$ git commit -am "modifies first file"
+
+$ git push origin master
+
+$ git branch master2
+
+$ git checkout master2
+
+$ git status
+
+$ git commit -am "modifies first file"
+
+$ git diff master master2
+
+$ git checkout master
+
+$ git log -1
+
+$ git merge master
+
+$ git log -1
